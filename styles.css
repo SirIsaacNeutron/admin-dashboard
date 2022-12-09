@@ -80,6 +80,30 @@ body {
     grid-template-rows: 1fr 1fr;
 }
 
+.search-area {
+    display: flex;
+    align-items: center;
+}
+
+.search-area img {
+    height: 2rem;
+}
+
+.search-area input {
+    margin-left: 10px;
+    width: 80%;
+    height: 1.5rem;
+    padding-left: 10px; /* so you can see the cursor */
+    padding-right: 10px; /* so you can see the delete button */ 
+
+    border-radius: 20px;
+    border: none;
+    background-color: #e0dddd;
+}
+.search-area input:focus {
+    outline: none;
+}
+
 .projects-area {
     grid-row: 2 / -1;
 
