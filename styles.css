@@ -82,6 +82,10 @@ body {
     align-items: center;
 }
 
+div.user-area {
+    padding: 5px 20px;
+}
+
 .user-area div {
     padding: 0;
 }
