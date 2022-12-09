@@ -123,6 +123,21 @@ body {
     height: 5rem;
 }
 
+.main-profile-area {
+    display: flex;
+    align-items: center;
+}
+
+.profile-greeting {
+    margin-left: 10px;
+}
+
+.username {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
 .projects-area {
     grid-row: 2 / -1;
 
