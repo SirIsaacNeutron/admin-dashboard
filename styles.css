@@ -78,6 +78,12 @@ body {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    
+    align-items: center;
+}
+
+.user-area div {
+    padding: 0;
 }
 
 .search-area {
@@ -102,6 +108,19 @@ body {
 }
 .search-area input:focus {
     outline: none;
+}
+
+.profile-area {
+    display: flex;
+    align-items: center;
+}
+
+.bell-icon {
+    height: 1.5rem;
+}
+
+.pa-profile {
+    height: 5rem;
 }
 
 .projects-area {
