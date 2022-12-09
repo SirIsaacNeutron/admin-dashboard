@@ -76,7 +76,7 @@ body {
 
 .user-area {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2.2fr 1fr;
     grid-template-rows: 1fr 1fr;
     
     align-items: center;
@@ -97,7 +97,7 @@ body {
 
 .search-area input {
     margin-left: 10px;
-    width: 80%;
+    width: 90%;
     height: 1.5rem;
     padding-left: 10px; /* so you can see the cursor */
     padding-right: 10px; /* so you can see the delete button */ 
@@ -113,14 +113,22 @@ body {
 .profile-area {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.profile-area p {
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .bell-icon {
-    height: 1.5rem;
+    height: 1.7rem;
+    cursor: pointer;
 }
 
 .pa-profile {
     height: 5rem;
+    cursor: pointer;
 }
 
 .main-profile-area {
@@ -136,6 +144,14 @@ body {
     font-weight: bold;
     margin-top: 15px;
     font-size: 1.5rem;
+}
+
+.button-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    column-gap: 25px;
 }
 
 .projects-area {
