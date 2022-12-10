@@ -166,6 +166,7 @@ div.user-area {
     border-radius: 20px;
     color: white;
     background-color: var(--dashboard-color);
+    cursor: pointer;
 
     height: 2rem;
 }
