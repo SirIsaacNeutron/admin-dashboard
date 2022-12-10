@@ -160,6 +160,15 @@ div.user-area {
     column-gap: 25px;
 }
 
+.button-area button {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--dashboard-color);
+
+    height: 2rem;
+}
+
 .projects-area {
     grid-row: 2 / -1;
 
