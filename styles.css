@@ -133,6 +133,8 @@ div.user-area {
 .pa-profile {
     height: 5rem;
     cursor: pointer;
+
+    padding: 0px 10px;
 }
 
 .main-profile-area {
