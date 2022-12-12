@@ -57,8 +57,18 @@ body {
     margin-bottom: 45px;
 }
 
-.dashboard-link-area p, h1 {
+.dashboard-link-area p, h1, a {
     margin-left: 20px;
+}
+
+.dashboard-link-area a {
+    color: white;
+    text-decoration: none;
+}
+
+.dashboard-link-area a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .dashboard-link-area p:hover {
@@ -70,7 +80,7 @@ body {
     padding: 0;
 }
 
-.communities-link {
+.communities-link, .privacy-link {
     margin-bottom: 50px;
 }
 
