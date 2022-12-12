@@ -19,7 +19,7 @@ body {
     grid-template-rows: 1fr 2fr 2fr 2fr;
 }
 
-.container div {
+.container > div {
     padding: 25px;
 }
 
@@ -175,11 +175,33 @@ div.user-area {
     grid-row: 2 / -1;
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 7fr 1fr;
     background-color: var(--background-color);
 }
 
-.projects {
+.projects-area > div {
+    padding: 0;
+}
+
+.project-items {
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px 20px;
+}
+
+.project {
+    height: 200px;
+    border: 1px solid grey;
+
+    border-radius: 10px;
+
+    border-left: 10px solid #2dd4bf;
+    padding: 20px;
+}
+
+.project h1 {
 
 }
 
