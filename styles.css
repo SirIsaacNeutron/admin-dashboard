@@ -135,11 +135,16 @@ div.user-area {
     cursor: pointer;
 
     padding: 0px 10px;
+    border-radius: 50%;
 }
 
 .main-profile-area {
     display: flex;
     align-items: center;
+}
+
+.main-profile-area img {
+    border-radius: 50%;
 }
 
 .profile-greeting {
@@ -174,7 +179,7 @@ div.user-area {
     grid-row: 2 / -1;
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
     background-color: var(--background-color);
 }
 
@@ -231,7 +236,7 @@ div.user-area {
     grid-column: -1;
 }
 
-.announcement-area {
+.announcement-area, .trending-area {
     margin-top: 20px;
 
     background-color: white;
@@ -241,6 +246,11 @@ div.user-area {
 
 .announcement h3 {
     margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.announcement {
+    font-size: .9rem;
 }
 
 .announcement-area hr {
@@ -248,5 +258,34 @@ div.user-area {
 }
 
 .trending {
+    margin-top: 20px;
+
     grid-column: -1;
+}
+
+.trend {
+    display: flex;
+    align-items: center;
+}
+
+.trend img {
+    height: 4rem;
+    width: 4rem;
+
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.trend-description {
+    margin-top: 5px;
+
+    font-size: 14px;
+}
+
+.trending-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    row-gap: 40px;
 }
